@@ -55,9 +55,10 @@ grafana:
         revision: 1
         datasource: Prometheus
       k8s-cluster-metrics-simple:
-        gnetId: 6417
-        revision: 1
-        datasource: Prometheus
+        # gnetId: 6417
+        # revision: 1
+        # datasource: Prometheus
+        url: https://raw.githubusercontent.com/TheKoguryo/grafana-dashboard/main/mushop/kubernetes-cluster-prometheus-oke.json
       k8s-pods-monitoring:
         gnetId: 13498
         revision: 1
@@ -71,13 +72,15 @@ grafana:
         revision: 1
         datasource: Prometheus
       k8s-pods:
-        gnetId: 6336
-        revision: 1
-        datasource: Prometheus
+        # gnetId: 6336
+        # revision: 1
+        # datasource: Prometheus
+        url: https://raw.githubusercontent.com/TheKoguryo/grafana-dashboard/main/mushop/kubernetes-pods-prometheus-oke.json
       spring-boot:
-        gnetId: 12464
-        revision: 2
-        datasource: Prometheus
+        # gnetId: 12464
+        # revision: 2
+        # datasource: Prometheus
+        url: https://raw.githubusercontent.com/TheKoguryo/grafana-dashboard/main/mushop/spring-boot-statistics-oke.json
       nginx-ingress-controller:
         gnetId: 9614
         revision: 1
