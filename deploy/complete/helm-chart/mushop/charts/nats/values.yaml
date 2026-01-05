@@ -1,12 +1,12 @@
 replicaCount: 1
 
 image:
-  repository: nats
+  repository: docker.io/nats
   tag: 2.7.1
   pullPolicy: IfNotPresent
 
 exporter: 
-  repository: natsio/prometheus-nats-exporter
+  repository: docker.io/natsio/prometheus-nats-exporter
   tag: 0.9.1
   pullPolicy: IfNotPresent
 
